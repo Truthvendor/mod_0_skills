@@ -1,0 +1,9 @@
+food = "Burger"
+is_delicious = true
+food = "Pizza"
+num2 = 5
+num7 = 28
+quotient = num7 / num2
+songs = ["Time", "Don't Leave Me Now", "Sacral Nirvana"]
+songs.shift
+p foods.bytesize
