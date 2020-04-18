@@ -1,5 +1,5 @@
 **class**
-restaurant
+Restaurant
 
 **attributes**
 * seats (integer)
