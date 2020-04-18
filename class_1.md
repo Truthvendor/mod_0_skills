@@ -1,14 +1,14 @@
 **class**
-restaurant
+Restaurant
 
 **attributes**
 * menu(hash)
 * staff(integer)
-* open for business(boolean)
-* occupancy(boolean)
+* operating_hours(integer)
+* max_occupancy(integer)
 
 **Methods**
-* menu_items(using a hash, key = items and value is the description of the item)
+* add_menu_item(using a hash, key = items and value is the description of the item)
 * count_staff(count the staff members on duty and input as an interger)
-* assign_operating_hours(is the current time between those hours? true / false)
-* count_customers(is occupancy going to be exceeded? integer/boolean)
+* check_current_time(is the current time between operating hours? true / false)
+* count_customers(has occupancy been exceeded? true / false)
